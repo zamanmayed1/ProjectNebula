@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.svg" type="image/x-icon">
+</head>
+<body>
+   
+    <div class="main">
+        <div class="top">
+            <h1>Funny Game</h1>
+            <marquee behavior="" direction="" class="offer"> <img src="icon.svg" alt="" width="20px">
+                Input A Number . If Your Number Matched With Random Number We Will Gift You A Iphone 12 Pro Max <img src="icon.svg" alt="" width="20px"></marquee>
+        </div>
+        <div class="inputdiv">
+            <input type="text" class="input" maxlength="2" placeholder="Input A Number Under 99" id="input" > <button class="btn " id="btn">CHECK</button>
+        </div>
+            <div class="result">
+                <h2>You Guess : <span id="inputed" style="color: blue;">00</span></h2>
+                <h2>Random Number : <span id="random"  style="color: blue;">00</span></h2>
+
+                      <div class="status"><h1 style="color: red; display: none;" id="fail">Number Not Matched</h1></div>
+                      <div><img onclick="reload()" src="again.svg" alt="" width="40px"></div>
+                    
+            </div>  
+    </div>
+
+    <script src="script.js
+    "></script>
+   
+</body>
+</html>
